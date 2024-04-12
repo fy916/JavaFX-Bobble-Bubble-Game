@@ -12,7 +12,7 @@ If the gif does not load or play, you can click [here](video_introduction.mp4) f
 
 
 
-![video_introduction.gif](/Users/fy916/Documents/Projects/JavaFX-Bobble-Bubble-Game/video_introduction.gif)
+![video_introduction.gif](video_introduction.gif)
 
 
 
