@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fy916.bubblebobble.controllers.MainController">
+   <children>
+      <ImageView fx:id="Image_background" fitHeight="800.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Tittle" fitHeight="286.0" fitWidth="812.0" layoutX="95.0" layoutY="84.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Start_game_button" fitHeight="46.0" fitWidth="191.0" layoutX="221.0" layoutY="491.0" onMouseClicked="#start_game" onMouseEntered="#focus_start_game" onMouseExited="#focus_main" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Quit_Game" fitHeight="46.0" fitWidth="195.0" layoutX="602.0" layoutY="491.0" onMouseClicked="#quit_Game" onMouseEntered="#focus_quit" onMouseExited="#focus_main" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Controls" fitHeight="46.0" fitWidth="195.0" layoutX="123.0" layoutY="611.0" onMouseClicked="#controls" onMouseEntered="#focus_controls" onMouseExited="#focus_main" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="LeaderBoard" fitHeight="46.0" fitWidth="233.0" layoutX="385.0" layoutY="611.0" onMouseClicked="#leader_board" onMouseEntered="#focus_board" onMouseExited="#focus_main" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Game_settings" fitHeight="46.0" fitWidth="200.0" layoutX="677.0" layoutY="611.0" onMouseClicked="#game_settings" onMouseEntered="#focus_settings" onMouseExited="#focus_main" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

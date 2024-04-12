@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fy916.bubblebobble.controllers.LeaderBoardController">
+   <children>
+      <ImageView fx:id="Image_background" fitHeight="800.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="no1" layoutX="73.0" layoutY="78.0" prefHeight="84.0" prefWidth="134.0" text="#1" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="96.0" />
+         </font>
+      </Label>
+      <Label fx:id="no2" layoutX="85.0" layoutY="213.0" prefHeight="84.0" prefWidth="134.0" text="#2" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="73.0" />
+         </font>
+      </Label>
+      <Label fx:id="no3" layoutX="103.0" layoutY="335.0" prefHeight="84.0" prefWidth="134.0" text="#3" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="60.0" />
+         </font>
+      </Label>
+      <Label fx:id="no4" layoutX="103.0" layoutY="459.0" prefHeight="84.0" prefWidth="134.0" text="#4" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="60.0" />
+         </font>
+      </Label>
+      <Label fx:id="no5" layoutX="103.0" layoutY="581.0" prefHeight="84.0" prefWidth="134.0" text="#5" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="60.0" />
+         </font>
+      </Label>
+      <Label fx:id="no6" layoutX="525.0" layoutY="98.0" prefHeight="84.0" prefWidth="134.0" text="#6" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="60.0" />
+         </font>
+      </Label>
+      <Label fx:id="no7" layoutX="525.0" layoutY="214.0" prefHeight="84.0" prefWidth="134.0" text="#7" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="60.0" />
+         </font>
+      </Label>
+      <Label fx:id="no8" layoutX="525.0" layoutY="335.0" prefHeight="84.0" prefWidth="134.0" text="#8" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="60.0" />
+         </font>
+      </Label>
+      <Label fx:id="no9" layoutX="525.0" layoutY="458.0" prefHeight="84.0" prefWidth="134.0" text="#9" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="60.0" />
+         </font>
+      </Label>
+      <Label fx:id="no10" layoutX="525.0" layoutY="579.0" prefHeight="84.0" prefWidth="134.0" text="#10" textFill="WHITE">
+         <font>
+            <Font name="Arial" size="60.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="score_content_left" accessibleRole="LIST_VIEW" editable="false" focusTraversable="false" layoutX="203.0" layoutY="88.0" maxHeight="793.0" maxWidth="322.0" minHeight="793.0" minWidth="322.0" mouseTransparent="true" prefHeight="793.0" prefWidth="322.0">
+         <font>
+            <Font name="Arial" size="34.0" />
+         </font>
+      </TextArea>
+      <TextArea fx:id="score_content_right" editable="false" focusTraversable="false" layoutX="637.0" layoutY="88.0" mouseTransparent="true" prefHeight="800.0" prefWidth="322.0">
+         <font>
+            <Font name="Arial" size="34.0" />
+         </font>
+      </TextArea>
+      <ImageView fx:id="back_button" fitHeight="49.0" fitWidth="234.0" layoutX="716.0" layoutY="29.0" onMouseClicked="#back_to_main" onMouseEntered="#focus_back_button" onMouseExited="#focus_page" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

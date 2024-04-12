@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fy916.bubblebobble.controllers.GameController">
+   <children>
+      <ImageView fx:id="Image_background" fitHeight="800.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="To_main_button" fitHeight="60.0" fitWidth="246.0" layoutX="702.0" layoutY="37.0" onMouseEntered="#focus_back" onMouseExited="#focus_page" onMousePressed="#Go_to_main" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="62.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="Score_count" layoutX="370.0" layoutY="43.0" text="Score" textFill="WHITE">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Label>
+      <Canvas fx:id="canvas_game" height="680.0" layoutX="100.0" layoutY="97.0" width="800.0" />
+      <ImageView fx:id="lives1" fitHeight="30.0" fitWidth="30.0" layoutX="108.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="lives5" fitHeight="30.0" fitWidth="30.0" layoutX="258.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="lives4" fitHeight="30.0" fitWidth="30.0" layoutX="221.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="lives3" fitHeight="30.0" fitWidth="30.0" layoutX="183.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="lives2" fitHeight="30.0" fitWidth="30.0" layoutX="145.0" layoutY="52.0" pickOnBounds="true" preserveRatio="true" />
+      <ProgressIndicator fx:id="Hero_time_indicator_red" layoutX="25.0" layoutY="17.0" progress="0.35" style="-fx-color: red; -fx-accent: red;" />
+      <ProgressBar fx:id="Boss_health_indicator" layoutX="52.0" layoutY="17.0" prefHeight="13.0" prefWidth="80.0" progress="0.0" style="-fx-accent: red;" />
+      <ProgressIndicator fx:id="Hero_time_indicator_green" layoutX="147.0" layoutY="12.0" progress="0.53" style="-fx-accent: green;" />
+      <ProgressBar fx:id="Hero_Ability_Indicator" layoutX="52.0" layoutY="31.0" prefHeight="13.0" prefWidth="80.0" progress="0.0" />
+   </children>
+</AnchorPane>

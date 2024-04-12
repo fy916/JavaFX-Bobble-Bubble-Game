@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fy916.bubblebobble.controllers.SettingsController">
+   <children>
+      <ImageView fx:id="Image_background" fitHeight="800.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="difficulty_0" fitHeight="54.0" fitWidth="115.0" layoutX="128.0" layoutY="136.0" onMouseEntered="#focus_easy" onMouseExited="#focus_main" onMousePressed="#select_difficulty_0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="difficulty_1" fitHeight="55.0" fitWidth="154.0" layoutX="288.0" layoutY="134.0" onMouseEntered="#focus_normal" onMouseExited="#focus_main" onMousePressed="#select_difficulty_1" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="difficulty_2" fitHeight="54.0" fitWidth="115.0" layoutX="481.0" layoutY="135.0" onMouseEntered="#focus_hard" onMouseExited="#focus_main" onMousePressed="#select_difficulty_2" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="difficulty_3" fitHeight="54.0" fitWidth="243.0" layoutX="629.0" layoutY="135.0" onMouseEntered="#focus_nightmare" onMouseExited="#focus_main" onMousePressed="#select_difficulty_3" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="color_0" fitHeight="49.0" fitWidth="49.0" layoutX="146.0" layoutY="297.0" onMouseEntered="#focus_color0" onMouseExited="#focus_main" onMousePressed="#select_color_0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="color_1" fitHeight="49.0" fitWidth="49.0" layoutX="237.0" layoutY="294.0" onMouseEntered="#focus_color1" onMouseExited="#focus_main" onMousePressed="#select_color_1" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="color_2" fitHeight="49.0" fitWidth="49.0" layoutX="330.0" layoutY="295.0" onMouseEntered="#focus_color2" onMouseExited="#focus_main" onMousePressed="#select_color_2" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="color_3" fitHeight="49.0" fitWidth="49.0" layoutX="421.0" layoutY="294.0" onMouseEntered="#focus_color3" onMouseExited="#focus_main" onMousePressed="#select_color_3" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="color_4" fitHeight="49.0" fitWidth="49.0" layoutX="512.0" layoutY="294.0" onMouseEntered="#focus_color4" onMouseExited="#focus_main" onMousePressed="#select_color_4" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="color_5" fitHeight="49.0" fitWidth="49.0" layoutX="604.0" layoutY="294.0" onMouseEntered="#focus_color5" onMouseExited="#focus_main" onMousePressed="#select_color_5" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="color_6" fitHeight="49.0" fitWidth="49.0" layoutX="697.0" layoutY="297.0" onMouseEntered="#focus_color6" onMouseExited="#focus_main" onMousePressed="#select_color_6" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="color_7" fitHeight="49.0" fitWidth="49.0" layoutX="789.0" layoutY="296.0" onMouseEntered="#focus_color7" onMouseExited="#focus_main" onMousePressed="#select_color_7" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="bg_0" fitHeight="137.0" fitWidth="166.0" layoutX="88.0" layoutY="436.0" onMouseEntered="#focus_bg0" onMouseExited="#focus_main" onMousePressed="#select_bg_0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="bg_1" fitHeight="137.0" fitWidth="166.0" layoutX="301.0" layoutY="437.0" onMouseEntered="#focus_bg1" onMouseExited="#focus_main" onMousePressed="#select_bg_1" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="bg_2" fitHeight="137.0" fitWidth="166.0" layoutX="521.0" layoutY="436.0" onMouseEntered="#focus_bg2" onMouseExited="#focus_main" onMousePressed="#select_bg_2" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="bg_3" fitHeight="137.0" fitWidth="166.0" layoutX="733.0" layoutY="437.0" onMouseEntered="#focus_bg3" onMouseExited="#focus_main" onMousePressed="#select_bg_3" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="bg_4" fitHeight="137.0" fitWidth="166.0" layoutX="88.0" layoutY="600.0" onMouseEntered="#focus_bg4" onMouseExited="#focus_main" onMousePressed="#select_bg_4" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="bg_5" fitHeight="137.0" fitWidth="166.0" layoutX="302.0" layoutY="601.0" onMouseEntered="#focus_bg5" onMouseExited="#focus_main" onMousePressed="#select_bg_5" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="bg_6" fitHeight="137.0" fitWidth="166.0" layoutX="521.0" layoutY="599.0" onMouseEntered="#focus_bg6" onMouseExited="#focus_main" onMousePressed="#select_bg_6" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="bg_7" fitHeight="137.0" fitWidth="166.0" layoutX="735.0" layoutY="601.0" onMouseEntered="#focus_bg7" onMouseExited="#focus_main" onMousePressed="#select_bg_7" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="check_difficulty" fitHeight="42.0" fitWidth="57.0" layoutX="155.0" layoutY="172.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="check_color" fitHeight="42.0" fitWidth="57.0" layoutX="140.0" layoutY="323.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="check_background" fitHeight="42.0" fitWidth="57.0" layoutX="139.0" layoutY="550.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="back_button" fitHeight="56.0" fitWidth="183.0" layoutX="771.0" layoutY="26.0" onMouseEntered="#focus_back" onMouseExited="#focus_main" onMousePressed="#back_to_main" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,15 @@
+module:com.fy916.bubblebobble
+com.fy916.bubblebobble
+com.fy916.bubblebobble.controllers
+com.fy916.bubblebobble.controllers.renderer
+com.fy916.bubblebobble.gaming.elements
+com.fy916.bubblebobble.gaming.elements.features.collision
+com.fy916.bubblebobble.gaming.elements.features.die
+com.fy916.bubblebobble.gaming.elements.features.enemystates
+com.fy916.bubblebobble.gaming.elements.features.herostates
+com.fy916.bubblebobble.gaming.elements.features.jump
+com.fy916.bubblebobble.gaming.elements.features.updater
+com.fy916.bubblebobble.gaming.elements.mapelements
+com.fy916.bubblebobble.gaming.elements.movingelements
+com.fy916.bubblebobble.gaming.world
+com.fy916.bubblebobble.utilities

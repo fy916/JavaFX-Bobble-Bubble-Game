@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.fy916.bubblebobble.controllers.GameFinishController">
+   <children>
+      <ImageView fx:id="Image_background" fitHeight="800.0" fitWidth="1000.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="page" fitHeight="680.0" fitWidth="800.0" layoutX="100.0" layoutY="97.0" pickOnBounds="true" preserveRatio="true" />
+      <Label layoutX="333.0" layoutY="312.0" prefHeight="39.0" prefWidth="91.0" text="#1">
+         <font>
+            <Font name="Arial" size="57.0" />
+         </font>
+      </Label>
+      <Label fx:id="no3" layoutX="333.0" layoutY="503.0" prefHeight="39.0" prefWidth="91.0" text="#3">
+         <font>
+            <Font name="Arial" size="57.0" />
+         </font>
+      </Label>
+      <Label fx:id="no2" layoutX="331.0" layoutY="409.0" lineSpacing="2.0" prefHeight="39.0" prefWidth="91.0" text="#2">
+         <font>
+            <Font name="Arial" size="57.0" />
+         </font>
+      </Label>
+      <Label fx:id="no4" layoutX="334.0" layoutY="605.0" prefHeight="39.0" prefWidth="91.0" text="#4">
+         <font>
+            <Font name="Arial" size="57.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="score_board" editable="false" focusTraversable="false" layoutX="452.0" layoutY="309.0" mouseTransparent="true" prefHeight="668.0" prefWidth="386.0">
+         <font>
+            <Font name="Arial" size="26.0" />
+         </font>
+      </TextArea>
+      <Label layoutX="122.0" layoutY="238.0" text="Leader Board">
+         <font>
+            <Font name="Arial" size="38.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="save_score_button" fitHeight="66.0" fitWidth="238.0" layoutX="133.0" layoutY="685.0" onMouseEntered="#focus_back" onMouseExited="#focus_page" onMousePressed="#save_score" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="next_level_button" fitHeight="66.0" fitWidth="249.0" layoutX="616.0" layoutY="664.0" onMouseEntered="#focus_next_level" onMouseExited="#focus_page" onMousePressed="#next_level" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>
